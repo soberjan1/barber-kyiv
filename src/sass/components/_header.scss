@@ -1,7 +1,7 @@
 .header {
   .header-container {
-    padding-left: 0px;
-    padding-right: 0px;
+    // padding-left: 0px;
+    // padding-right: 0px;
     display: flex;
     .aside {
       width: 90px;
@@ -18,7 +18,7 @@
         display: flex;
         transform: rotate(-90deg);
         a {
-          color: $color_black;
+          color: $color_white;
           font-style: normal;
           font-weight: 600;
           font-size: 11px;
@@ -52,7 +52,7 @@
       }
     }
     .navigation {
-      padding-left: 24px;
+      padding-left: 100px;
       display: none;
       ul {
         padding-top: 12px;
@@ -98,12 +98,13 @@
       }
       @media screen and(min-width:768px) {
         display: flex;
-        margin-bottom: 156px;
+        margin-bottom: 200px;
       }
     }
     .header-main {
-      position: relative;
+      // position: relative;
       width: 100%;
+      // min-height: 680px;
       background-image: url(../images/Slider-img-3.jpg);
       background-repeat: no-repeat;
       background-position: center;
@@ -126,11 +127,11 @@
 
       padding-top: 40px;
       padding-bottom: 183px;
-      padding-left: 31px;
-      padding-right: 39px;
+      padding-left: 55px;
+      padding-right: 55px;
       @media screen and (min-width: 768px) {
-        padding-left: 0px;
-        padding-bottom: 0px;
+        // padding-left: 0px;
+        // padding-bottom: 0px;
       }
       .logo-burger {
         display: flex;
@@ -160,7 +161,8 @@
       }
       .info {
         @media screen and(min-width: 768px) {
-          padding-left: 120px;
+          margin-left: 120px;
+          margin-bottom: 200px;
         }
         .title {
           font-family: "Open Sans", sans-serif;
