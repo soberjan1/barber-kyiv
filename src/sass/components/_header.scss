@@ -55,7 +55,8 @@
       // margin-left: 100px;
       display: none;
       ul {
-        padding-top: 12px;
+        margin-left: 80px;
+        // padding-top: 12px;
         display: flex;
         font-weight: 600;
         font-size: 12px;
@@ -75,8 +76,10 @@
       }
       .header-contacts {
         display: flex;
-        flex-flow: column-reverse;
+        // flex-flow: column-reverse;
         margin-left: auto;
+        align-content: center;
+        flex-wrap: wrap;
         @media screen and (min-width: 1280px) {
           flex-flow: initial;
           align-items: center;
@@ -104,6 +107,7 @@
     .header-main {
       // position: relative;
       width: 100%;
+      padding-top: 45px;
       // min-height: 680px;
       background-image: url(../images/Slider-img-3.jpg);
       background-repeat: no-repeat;
@@ -253,4 +257,10 @@
       }
     }
   }
+}
+
+.nav{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
