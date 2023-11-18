@@ -139,8 +139,8 @@ body .container {
 }
 
 .header .header-container {
-  padding-left: 0px;
-  padding-right: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,12 +313,12 @@ body .container {
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .header .header-container .header-main {
     padding-left: 0px;
     padding-bottom: 0px;
   }
-}
+} */
 
 .header .header-container .header-main .logo-burger {
   display: -webkit-box;
