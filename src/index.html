@@ -44,10 +44,10 @@
                     <img src="./images/logo_barber_v3.png" alt="logo" width="69" height="55" class="logo">
                     <nav class="nav">
                         <ul>
-                            <li><a href="">О нас</a></li>
-                            <li><a href="">Услуги и цены</a></li>
-                            <li><a href="">Мастера</a></li>
-                            <li><a href="">Контакты</a></li>
+                            <li><a href="">Про нас</a></li>
+                            <li><a href="">Послуги и ціни</a></li>
+                            <li><a href="">Майстри</a></li>
+                            <li><a href="">Контакти</a></li>
                         </ul>
                     </nav>
                     <div class="header-contacts">
@@ -99,14 +99,14 @@
                     то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
                     Поэтому, мы всегда
                     готовы усовершенствовать каждого, кто к нам приходит!</p>
-                <button class="button">онлайн-запись</button>
+                <!-- <button class="button">онлайн-запись</button> -->
             </div>
         </div>
     </section>
     <section class="prices">
         <div class="container">
             <p class="title">Проведи время в компании лучших мастеров</p>
-            <h2>Услуги и цены</h2>
+            <h2>Послуги і ціни</h2>
             <div>
                 <ul class="first-block">
                     <li class="price_item">
@@ -153,7 +153,7 @@
                     </li>
                 </ul>
             </div>
-            <button class="button">онлайн-запись</button>
+            <!-- <button class="button">онлайн-запис</button> -->
         </div>
     </section>
     <section class="advantages">
@@ -187,8 +187,8 @@
     </section>
     <section class="our_masters">
         <div class="container">
-            <p class="title">для настоящих ценителей атмосферы</p>
-            <h2>Наши мастера</h2>
+            <p class="title">для справжніх поціновувачів атмосфери</p>
+            <h2>Наші майстри</h2>
             <ul>
                 <li class="member">
                     <picture>
@@ -327,36 +327,60 @@
     </section>
     <div class="contact-us-contacts">
         <section class="contact_us">
-            <div class="container">
-                <div class="online">
-                    <h2>Онлайн-запись</h2>
-                    <form>
-                        <div class="name-number">
-                            <label for="name">Имя*
-                                <input type="text" name="name" id="name" class="name">
-                            </label>
-                            <label>Телефон*
-                                <input type="number" class="number">
-                            </label>
-                        </div>
-                        <label>
-                            Сообщение*
-                            <input class="text" type="text">
-                        </label>
-                        <button class="button">Отправить</button>
-                    </form>
-                </div>
-            </div>
+     <div class="container">
+                <!-- Location -->
+      <!-- <div class="container"> -->
+      <!-- Img >= 1440px -->
+      <iframe 
+            id="map_desk"
+            class="live-map desk-only"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4678009852314!2d30.4936850765951!3d50.45101297159222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6039effac5%3A0xf8a9a0fd7e3afa28!2z0LLRg9C70LjRhtGPINCT0L7Qs9C-0LvRltCy0YHRjNC60LAsIDIyLTI0LCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1700499510309!5m2!1suk!2sua"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+  
+      <div class="section-cont">
+  
+        <!-- Img < 1440px -->
+        <iframe 
+            id="map_tabl_mob"
+            class="live-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4678009852314!2d30.4936850765951!3d50.45101297159222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6039effac5%3A0xf8a9a0fd7e3afa28!2z0LLRg9C70LjRhtGPINCT0L7Qs9C-0LvRltCy0YHRjNC60LAsIDIyLTI0LCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1suk!2sua!4v1700499510309!5m2!1suk!2sua"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+  
+        <div class="address-content">
+          <address class="location-address">
+            <ul class="address-list">
+              <li class="address-list-item">
+                <a
+                  class="address-link"
+                  href="https://maps.visicom.ua/i/ADR3KAA8P5Z6TE2HZH?lang=uk"
+                  target="_blank"
+                  rel="noopener noreferer nofollow"
+                  >Ukraine, Kyiv, <br />
+                  вул. Гоголівська, 22-24</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      <!-- </div> -->
+    </div>
+    </div>
         </section>
         <section class="contacts">
             <div class="container">
-                <h2>Контакты</h2>
+                <h2>Контакти</h2>
                 <ul>
                     <li>
                         <address><svg width="24" height="24">
                                 <use href="./images/sprite.svg#map"></use>
-                            </svg>ул. Васильковая, 7А
-                            Киев, 08132</address>
+                            </svg>вул. Гоголівська, 22-24
+                            Київ, 08132</address>
                     </li>
                     <li><a class="phone" href="tel:+38 044 111 11 11"> <svg width="24" height="24">
                                 <use href="./images/sprite.svg#phone"></use>
@@ -365,8 +389,8 @@
                                 <use href="./images/sprite.svg#mail"></use>
                             </svg>barbershop@email.com</a></li>
                 </ul>
-                <p class="title">время работы</p>
-                <p class="time">Ежедневно с 9:00 до 22:00</p>
+                <p class="title">час роботи</p>
+                <p class="time">Кожного дня з 9:00 до 22:00</p>
             </div>
         </section>
     </div>
@@ -389,15 +413,15 @@
                 </svg>
             </button>
             <ul class="modal-nav">
-                <li><a href="">О нас</a></li>
-                <li><a href="">Услуги и цены</a></li>
-                <li><a href="">Мастера</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="">Про нас</a></li>
+                <li><a href="">Послуги і ціни</a></li>
+                <li><a href="">Майстри</a></li>
+                <li><a href="">Контакти</a></li>
             </ul>
 
             <ul class="modal-contacts">
                 <li><a href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
-                <li><button>онлайн-запись</button></li>
+                <li><button>онлайн-запис</button></li>
             </ul>
 
             <ul class="modal-social">
