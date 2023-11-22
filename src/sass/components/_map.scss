@@ -35,10 +35,10 @@
   }
  
  
-  @media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  @media screen and (max-width: 768px)  {
     .live-map {
-      width: 600px;
-      height: 482px;
+      width: 400px;
+      height: 282px;
     }
   
     .address-list {
@@ -48,27 +48,27 @@
       gap: 356px;
     }
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     .live-map {
       display: none;
-      margin-bottom: 0;
     }
     .desk-only {
       display: block;
-      width: 640px;
-      height: 524px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 440px;
+      height: 324px;
     }
     
     .address-list {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       align-items: flex-start;
       gap: 70px;
     }
   
     .address-link {
-      margin-bottom: 0px;
       color: #9da4bd;;
     }
   
