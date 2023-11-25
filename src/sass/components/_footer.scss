@@ -3,17 +3,18 @@
   padding-bottom: 44px;
   .container {
     display: flex;
-    justify-content: space-between;
+    // justify-content: center;
+    gap: 40px;
     span {
       display: flex;
       align-items: center;
-      padding-top: 35px;
-      @media screen and(min-width:768px) {
-        padding-top: 0px;
-      }
+      // padding-top: 35px;
+      // @media screen and(min-width:768px) {
+      //   padding-top: 0px;
+      // }
       font-weight: 600;
-      font-size: 11px;
-      line-height: 15px;
+      font-size: 12px;
+      line-height: 16px;
       letter-spacing: 0.2em;
       color: $color_light_grey;
       svg {
@@ -25,7 +26,7 @@
       li {
         display: inline-flex;
         align-items: center;
-        font-family: "Open Sans", sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 11px;
