@@ -1,17 +1,17 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -21,7 +21,7 @@ body {
 
 body h1 {
   margin: 0px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -37,7 +37,7 @@ body h1 {
 }
 
 body h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -69,9 +69,9 @@ body .title {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Open Sans", sans-serif;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -83,7 +83,7 @@ body .title {
 }
 
 body .title::before {
-  content: "";
+  content: '';
   display: inline-block;
   background-color: #303030;
   height: 1px;
@@ -165,7 +165,7 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .header .header-container .aside ul a {
@@ -245,8 +245,8 @@ body .container {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-      -ms-flex-flow: column-reverse;
-          flex-flow: column-reverse;
+  -ms-flex-flow: column-reverse;
+  flex-flow: column-reverse;
   margin-left: auto;
 }
 
@@ -254,11 +254,11 @@ body .container {
   .header .header-container .navigation .header-contacts {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: initial;
-            flex-flow: initial;
+    -ms-flex-flow: initial;
+    flex-flow: initial;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -303,10 +303,25 @@ body .container {
   padding-right: 39px;
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .header .header-container .header-main {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Slider-img-3-x2.jpg);
-    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Slider-img-3-x2.jpg);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.4)),
+        to(rgba(47, 48, 58, 0.4))
+      ),
+      url(../images/Slider-img-3-x2.jpg);
+    background: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Slider-img-3-x2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -325,11 +340,11 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 112px;
 }
 
@@ -366,7 +381,7 @@ body .container {
 }
 
 .header .header-container .header-main .info .title {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -387,8 +402,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .header .header-container .header-main .info h1 svg {
@@ -443,8 +458,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   color: rgba(157, 164, 189, 0.6);
 }
 
@@ -465,7 +480,7 @@ body .container {
 }
 
 .header .header-container .header-main .slider-buttons ul li::after {
-  content: "";
+  content: '';
   display: inline-block;
   background-color: rgba(157, 164, 189, 0.6);
   height: 1px;
@@ -522,11 +537,11 @@ body .container {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
@@ -537,15 +552,15 @@ body .container {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .about_us .container .working_photo picture + picture {
     margin-left: 30px;
   }
   .about_us .container .working_photo img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 270px;
     height: 100%;
   }
@@ -564,7 +579,7 @@ body .container {
 }
 
 .about_us .working-info h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -575,7 +590,7 @@ body .container {
 }
 
 .about_us .working-info h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -639,7 +654,13 @@ body .container {
 }
 
 .prices .container div {
-  background: -webkit-gradient(linear, left top, left bottom, from(#171a24), to(rgba(23, 26, 36, 0.2)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#171a24),
+    to(rgba(23, 26, 36, 0.2))
+  );
   background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
   margin-left: auto;
   margin-right: auto;
@@ -661,7 +682,13 @@ body .container {
   .prices .container div .second-block {
     width: 50%;
     padding: 30px 40px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#090b13), to(rgba(9, 11, 19, 0.2)));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#090b13),
+      to(rgba(9, 11, 19, 0.2))
+    );
     background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
   }
 }
@@ -671,8 +698,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -682,8 +709,8 @@ body .container {
 
 .prices .price_item .price_underline {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   border-bottom: 1px solid rgba(157, 164, 189, 0.12);
 }
 
@@ -726,8 +753,8 @@ body .container {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 
@@ -743,7 +770,7 @@ body .container {
 
 .advantages .container .advantages-text h3 {
   margin-bottom: 44px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -771,10 +798,10 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .advantages .container .advantages-blocks ul .block {
@@ -802,7 +829,7 @@ body .container {
 }
 
 .advantages .container .advantages-blocks ul .block .number::after {
-  content: "+";
+  content: '+';
   vertical-align: top;
   font-weight: 600;
   font-size: 16px;
@@ -849,8 +876,8 @@ body .container {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
@@ -902,8 +929,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .our_masters ul .member .social-links li + li {
@@ -915,11 +942,11 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -961,10 +988,10 @@ body .container {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -1024,7 +1051,7 @@ body .container {
 }
 
 .contact_us .online h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -1041,8 +1068,8 @@ body .container {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .contact_us .online form .name-number input {
     width: 330px;
@@ -1068,14 +1095,15 @@ body .container {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact_us .online form label:hover, .contact_us .online form label:focus {
+.contact_us .online form label:hover,
+.contact_us .online form label:focus {
   color: #ffffff;
 }
 
 .contact_us .online form input {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   outline: none;
   background-color: #191c26;
   width: 100%;
@@ -1090,16 +1118,18 @@ body .container {
   color: #ffffff;
 }
 
-.contact_us .online form input::-webkit-inner-spin-button, .contact_us .online form input::-webkit-outer-spin-button {
+.contact_us .online form input::-webkit-inner-spin-button,
+.contact_us .online form input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.contact_us .online form input:hover, .contact_us .online form input:focus {
+.contact_us .online form input:hover,
+.contact_us .online form input:focus {
   color: #ffffff;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-bottom: 1px solid #ffffff;
   color: #ffffff;
   font-weight: 600;
@@ -1162,8 +1192,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contacts ul a {
@@ -1171,8 +1201,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contacts svg {
@@ -1183,7 +1213,7 @@ body .container {
 .contacts a,
 .contacts p {
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1210,8 +1240,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
@@ -1224,36 +1254,36 @@ body .container {
   background-color: rgba(157, 164, 189, 0.4);
 }
 
-.footer {
+/* .footer {
   padding-top: 44px;
   padding-bottom: 44px;
-}
+} */
 
-.footer .container {
+/* .footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 25px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  -ms-flex-pack: justify;
+} */
 
-.footer .container span {
+/* .footer .container span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 35px;
   font-weight: 600;
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0.2em;
   color: #9da4bd;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .footer .container span {
     padding-top: 0px;
   }
@@ -1274,9 +1304,9 @@ body .container {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Open Sans", sans-serif;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -1314,7 +1344,7 @@ body .container {
   .footer .container ul .title::before {
     margin-right: 40px;
   }
-}
+} */
 
 .backdrop {
   top: 0px;
@@ -1351,11 +1381,11 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: transparent;
   border: none;
   outline: none;
@@ -1376,7 +1406,7 @@ body .container {
 }
 
 .modal .modal-nav li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1399,7 +1429,7 @@ body .container {
 }
 
 .modal .modal-contacts a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1437,7 +1467,7 @@ body .container {
 }
 
 .modal .modal-social .title {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1453,7 +1483,7 @@ body .container {
 }
 
 .modal .modal-social a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
