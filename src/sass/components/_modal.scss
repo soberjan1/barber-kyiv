@@ -46,7 +46,7 @@
     }
     li {
       a {
-        font-family: "Open Sans", sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
@@ -68,7 +68,7 @@
       margin-bottom: 24px;
     }
     a {
-      font-family: "Open Sans", sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
@@ -104,7 +104,7 @@
       }
     }
     .title {
-      font-family: "Open Sans", sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
@@ -118,7 +118,7 @@
       }
     }
     a {
-      font-family: "Open Sans", sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
@@ -127,4 +127,9 @@
       color: $color_black;
     }
   }
+}
+
+.soc-links {
+  display: flex;
+  gap: 20px;
 }
