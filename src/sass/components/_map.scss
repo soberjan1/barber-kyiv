@@ -1,80 +1,79 @@
 .live-map {
-    width: 100%;
-    height: 384px;
-    margin-bottom: 20px;
-    /* mix-blend-mode: luminosity; */
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    border: none;
-    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 384px;
+  margin-bottom: 20px;
+  /* mix-blend-mode: luminosity; */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: none;
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+.desk-only {
+  display: none;
+}
+
+.address-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.address-link {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #9da4bd;
+}
+
+.address-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #9da4bd;
+}
+
+@media screen and (max-width: 768px) {
+  .live-map {
+    width: 350px;
+    height: 282px;
   }
-  
-  .desk-only {
+
+  .address-list {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 356px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .live-map {
     display: none;
   }
-  
+  .desk-only {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    height: 324px;
+  }
+
   .address-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
+    gap: 70px;
   }
-  
+
   .address-link {
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
     color: #9da4bd;
   }
 
-  .address-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #9da4bd;;
+  .section-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
- 
- 
-  @media screen and (max-width: 768px)  {
-    .live-map {
-      width: 400px;
-      height: 282px;
-    }
-  
-    .address-list {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      gap: 356px;
-    }
-  }
-  @media screen and (min-width: 1280px) {
-    .live-map {
-      display: none;
-    }
-    .desk-only {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 440px;
-      height: 324px;
-    }
-    
-    .address-list {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 70px;
-    }
-  
-    .address-link {
-      color: #9da4bd;;
-    }
-  
-    .section-cont {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-  }
+}
