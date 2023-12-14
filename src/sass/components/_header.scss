@@ -109,7 +109,7 @@
       width: 100%;
       padding-top: 45px;
       // min-height: 680px;
-      background-image: url(../images/Slider-img-3.jpg);
+      background-image: url(../images/hero1.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -123,7 +123,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url(../images/Slider-img-3-x2.jpg);
+          url(../images/hero1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -263,4 +263,8 @@
   display: flex;
   align-content: center;
   flex-wrap: wrap;
+}
+
+.logo{
+  width: auto;
 }
