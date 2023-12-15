@@ -24,7 +24,7 @@
     color: $color_white;
     margin-bottom: 44px;
   }
-  .container div {
+  .div-prices {
     background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +33,7 @@
 
     @media screen and (min-width: 1280px) {
       display: flex;
+      justify-content: space-evenly;
       padding: 0px 0px;
       .first-block {
         width: 50%;
@@ -49,6 +50,19 @@
       }
     }
   }
+
+  .div-price-wrapper{
+    @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+      padding: 0px 0px;
+  }
+}
+
   .price_item {
     display: flex;
     justify-content: space-between;
@@ -71,5 +85,10 @@
     margin-right: auto;
     color: $color_white;
     transition: $transition_all;
+  }
+
+  .price-title{
+    color: $color_white;
+    margin-bottom: 14px;
   }
 }
